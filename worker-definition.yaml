@@ -9,7 +9,4 @@ spec:
   containers:
   - name: woker-app
     image: dockersamples/examplevotingapp_worker
-    resources:
-      limits:
-        memory: "128Mi"
-        cpu: "500m"
+
